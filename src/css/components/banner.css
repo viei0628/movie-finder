@@ -1,0 +1,48 @@
+.banner {
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2018/03/13153742/RT_300EssentialMovies_700X250.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.banner .header {
+    /* margin: 0; */
+    width: 100%;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-size: 4em;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner h1 {
+    width: 100%;
+    font-size: 1em;
+    margin: 1em auto;
+}
+
+.banner form {
+    width: 100%;
+}
+/* header {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    height: 20vh;
+    margin: 3vh auto;
+} */
+
+/* h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5em;
+    width: 100%;
+} */

@@ -1,0 +1,19 @@
+@import url('./components/card.css');
+@import url('./components/banner.css');
+@import url('./components/cards_container.css');
+
+:root {
+    width: 100%;
+    height: 100%;
+}
+body {
+    background-color:rgb(0, 0, 0);
+    width: 100%;
+}
+
+.my_container {
+    /* position: relative; */
+    /* top: 30vh; */
+    margin: 0;
+}
+
