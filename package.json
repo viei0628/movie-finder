@@ -15,7 +15,6 @@
     "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^3.11.2"
   },
-  "name": "HTTP-AJAX",
   "version": "1.0.0",
   "private": true,
   "homepage": "https://viei0628.github.io/movie-finder/",
