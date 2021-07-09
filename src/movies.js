@@ -12,7 +12,8 @@ const insertMovies = (data) => {
 };
 
 const fetchMovies = (query) => {
-  fetch(`http://www.omdbapi.com/?s=${query.toLowerCase()}&apikey=adf1f2d7`)
+  // fetch(`http://www.omdbapi.com/?s=${query.toLowerCase()}&apikey=adf1f2d7`)
+  fetch(`https://www.omdbapi.com/?s=${query.toLowerCase()}&apikey=a002f3ac`)
     .then(response => response.json())
     .then(insertMovies);
 };
